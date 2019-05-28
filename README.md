@@ -12,16 +12,15 @@ git clone https://github.com/bjq/bjq.github.io
 cd bjq.github.io
 echo "# bjq.github.io" >> README.md
 echo "Hello World" > index.html
+git add --all
+git commit -m "Initial commit"
+git push -u origin master
 
+或者
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/bjq/bjq.github.io.git
-git push -u origin master
-
-
-git add --all
-git commit -m "Initial commit"
 git push -u origin master
 
 
