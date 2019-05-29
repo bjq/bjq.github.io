@@ -4,6 +4,7 @@ You get one site per GitHub account and organization, and unlimited project site
 https://pages.github.com/
 
 1, 创建以用户名命名的库地址（bjq.github.io）
+
 	在github网站上，用户名登录后创建库（用户名.github.io）
 	访问地址： https://github.com/bjq/bjq.github.io.git
 	
@@ -19,6 +20,12 @@ Get started by creating a new file or uploading an existing file. We recommend e
 	git add --all
 	git commit -m "Initial commit"
 	git push -u origin master
+
+或者
+
+	git add --all
+	git commit
+	git push
 
 或者
 
