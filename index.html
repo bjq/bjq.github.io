@@ -87,9 +87,10 @@ function checkGateways (gateways) {
   })
 }
 
-fetch('./gateways.json')
+fetch('https://ipfs.github.io/public-gateway-checker/gateways.json')
   .then(res => res.json())
   .then(gateways => checkGateways(gateways))
+	
 </script>
 
 
