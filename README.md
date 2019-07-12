@@ -35,5 +35,10 @@ Get started by creating a new file or uploading an existing file. We recommend e
 	git remote add origin https://github.com/bjq/bjq.github.io.git
 	git push -u origin master
 
+3, 拉取github库文件
+
+	git pull
+	
+
 
 "# bjq.github.io" 
